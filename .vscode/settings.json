@@ -1,0 +1,9 @@
+{
+    "cmake.sourceDirectory": "/home/arilix/Documents/telemesp/esp32-3.2.0",
+    "chat.tools.terminal.autoApprove": {
+        "/^pwd && printf '\\\\n--- files ---\\\\n' && find \\. -maxdepth 2 -type f \\| sort \\| sed -n '1,120p'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
